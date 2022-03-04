@@ -1,0 +1,95 @@
+/* 2021 - HARVEY COOMBS */
+.breakdown { color: var(--color-white); }
+
+.bronze {
+    color: #DD9072;
+    text-shadow: 0px 0px 10px #DD9072;
+}
+
+.silver {
+    color: #9CAAA9;
+    text-shadow: 0px 0px 10px #9CAAA9;
+}
+
+.gold {
+    color: #FFC300;
+    text-shadow: 0px 0px 10px #FFC300;
+}
+
+.breakdown {
+    height: calc(100% + 100px);
+}
+
+.breakdown strong {
+    font-size: 4.5em;
+    font-family: manrope-eb;
+    margin-top: 0;
+}
+
+.breakdown span {
+    font-size: 1.3em;
+}
+
+.breakdown ul {
+    font-size: 1.8em;
+    font-weight: 700;
+    line-height: 1.6em;
+    margin-left: 25px;
+}
+
+.breakdown ul li:hover {
+    cursor: pointer;
+    color: var(--color-green);
+}
+
+#payment_box { 
+    width: 400px; 
+    color: var(--color-slate);
+}
+
+#payment_box strong {
+    font-size: 1.6em;
+    font-family: manrope-eb;
+}
+
+#payment_box p {
+    font-size: 1.1em;
+    text-align: left;
+}
+
+.pay-options {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.buy {
+    padding: 10px 15px;
+    width: 130px;
+    font-size: 1.3em;
+    border: none;
+    border-radius: 7px;
+    font-family: manrope-eb;
+    color: var(--color-white);
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.buy:hover {
+    opacity: 0.5;
+}
+
+.paypal-btn {
+    background: #00457c;
+}
+
+.btc-btn {
+   background: #f2a900; 
+}
+
+.buy img {
+    width: 16px;
+}

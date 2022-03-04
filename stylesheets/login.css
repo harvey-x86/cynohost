@@ -1,0 +1,11 @@
+/* 2021 - HARVEY COOMBS */
+form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#login {
+    width: 300px;
+}

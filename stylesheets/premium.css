@@ -1,0 +1,56 @@
+/* 2021 - HARVEY COOMBS */
+.plan {
+    width: 300px;
+}
+
+.plan strong {
+    font-size: 2.5em;
+    font-family: manrope-eb;
+}
+
+a {
+    text-decoration: none;
+}
+
+.plan .price {
+    font-size: 4em;
+    font-family: manrope-eb;
+    color: var(--color-slate) !important;
+    text-shadow: 6px 6px 0px var(--color-green);
+}
+
+.plan ul {
+    color: var(--color-slate);
+    text-align: start;
+    font-weight: 700;
+    font-size: 1.1em;
+    margin: auto;
+}
+
+.plan ul li { margin: 3px 0 3px 0; }
+
+#bronze strong { color: #DD9072; }
+
+#silver strong { color: #9CAAA9; }
+
+#gold strong { color: #FFC300; }
+
+@media only screen and (max-width: 1600px) {
+    .plan {
+        width: 265px;
+    }
+    section {
+        gap: 9%;
+    }
+}
+
+.button-btc {
+    background: #f2a900;
+    color: var(--color-white);
+    padding: 11px 17px;
+    font-size: .9em;
+    border: 3px solid #f2a900;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: manrope;
+}

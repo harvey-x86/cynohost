@@ -1,0 +1,128 @@
+/* 2021 - HARVEY COOMBS */
+#content {
+    display: flex;
+}
+
+#sidebar {
+    background: var(--color-crimson);
+    color: var(--color-white);
+    width: 230px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+}
+
+#sidebar .main-logo {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin: 30px 10% 0 10%;
+}
+
+#sidebar .group button {
+    color: var(--color-white);
+    background: var(--color-crimson);
+    padding: 11px 17px;
+    font-size: 14px;
+    border: 3px solid transparent;
+    border-radius: 6px;
+    width: 100%;
+    cursor: pointer;
+    transition: 400ms;
+    font-family: manrope;
+}
+                               
+#sidebar .group button:hover {
+    background: var(--color-violet);
+    color: var(--color-crimson);
+}
+
+#sidebar hr { 
+    background: var(--color-gray);
+    border: 1px solid var(--color-gray);
+    margin: 8px 0 8px 0;
+    width: 100%;
+}
+
+#sidebar .group {
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+#sidebar .group button img {
+    width: 14px;
+    margin-right: 5px;
+    margin-top: -1px;
+    vertical-align: middle;
+}
+
+#popup {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+#popup .inner {
+  border: none;
+  border-radius: 7px;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 15px;
+  width: fit-content;
+  margin: auto;
+  margin-top: 150px;
+}
+
+#popup .inner .title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#popup .inner .title strong {
+  font-size: 20px;
+}
+
+#popup .inner .title button {
+  border: none;
+  background: transparent;
+  font-size: 23px;
+  font-weight: bold;
+  cursor: pointer;
+  color: var(--color-black);
+}
+
+#popup .inner .buttons {
+    margin: auto;
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+}
+
+#popup .inner .buttons button {
+    background: var(--color-crimson);
+    color: var(--color-white);
+    padding: 10px 14px;
+    font-size: 14px;
+    border: 3px solid var(--color-crimson);
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: manrope;
+}
+
+#popup .inner .buttons button:hover {
+    background: transparent;
+    color: var(--color-crimson);
+}

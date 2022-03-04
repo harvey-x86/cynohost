@@ -1,0 +1,104 @@
+/* 2021 - HARVEY COOMBS */
+section {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    margin-top: 8%;
+}
+
+#files > div {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+form {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.use-password {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.use-password input[type=checkbox] {
+    width: 20px;
+    height: 20px;
+}
+
+#files img {
+    width: 100%;
+}
+
+#files strong {
+    font-size: 1.4em;
+    color: var(--color-slate);
+    text-decoration: underline;
+}
+
+#files a:hover {
+    color: var(--color-green);
+}
+
+.report {
+    font-size: 14px;
+    color: var(--color-green);
+    text-decoration: underline;
+    font-family: manrope;
+    cursor: pointer;
+    margin: auto;
+    width: fit-content;
+}
+
+.report:hover {
+    font-weight: bold;
+}
+
+.upload-data {
+    color: var(--color-black);
+    font-size: 18px;
+    font-weight: 700;
+    /*display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;*/
+    width: 100%;
+    padding: 10px;
+}
+
+.upload-data tr {
+    text-align: left;
+    height: 50px;
+}
+
+.upload-data tr td, .upload-data tr th {
+    padding: 0 20px 0 20px;
+}
+
+.upload-data span:hover {
+    color: var(--color-green);
+    cursor: pointer;
+}
+
+.small-button {
+    background: var(--color-green);
+    color: var(--color-white);
+    padding: 9px 10px;
+    font-size: .7em;
+    border: 3px solid var(--color-green);
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: manrope;
+    text-decoration: none;
+} .small-button:hover {
+    background: var(--color-white);
+    color: var(--color-green);
+}
