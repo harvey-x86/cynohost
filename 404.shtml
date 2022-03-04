@@ -1,0 +1,58 @@
+<!-- 2021 WRITTEN BY HARVEY COOMBS | HARVEYCOOMBS.COM -->
+<html lang="en">
+
+	<head>
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="description" content="CynoHost, File-Hosting Freedom" />
+		<meta charset="utf-8" />
+
+		<link rel="stylesheet" type="text/css" href="stylesheets/theme.css" />
+		<link rel="icon" type="image/png" href="media/favicon.png" />
+
+		<title>CynoHost | File Not Found</title>
+
+	</head>
+
+	<body>
+	    
+	    <header>
+
+	        <a href="/"><img src="media/icon.png" alt="icon" /></a>
+	        <div>
+                <a class="option" href="/">home</a>
+                <a class="option" href="/premium">premium</a>
+            </div>
+	        
+	    </header>
+
+		<section>
+		    
+		    <div class="page-err">
+		        <img src="/media/404.png" />
+                <strong>File Not Found...</strong>
+                <span>This upload does not exist or has expired. <a href="/">Return home?</a></span>
+            </div>
+
+		</section>
+    
+		<footer id="footer">
+		    <span>Designed & Developed By <a href="http://twitter.com/harveyc2003">Harvey C.</a> &#183; </span>
+		    <div class="lang-selector">
+		        <img src="/media/en.png" id="lang-flag" />
+    		    <select id="langSelect">
+    		        <option data-lang="en" selected>EN</option>
+    		        <option data-lang="nl">NL</option>
+    		        <option data-lang="fr">FR</option>
+    		        <option data-lang="de">DE</option>
+    		    </select>
+		    </div>
+		</footer>
+		
+        <!--<svg width="100%" height="100%" id="bg-wave" viewBox="0 -99 1440 600" xmlns="http://www.w3.org/2000/svg" class="transition duration-300 ease-in-out delay-150"><path d="M 0,600 C 0,600 0,300 0,300 C 66.36276193747852,257.8364823084851 132.72552387495705,215.67296461697012 203,222 C 273.27447612504295,228.32703538302988 347.4606664376503,283.1446238406046 418,308 C 488.5393335623497,332.8553761593954 555.4318103744417,327.7485400206115 610,294 C 664.5681896255583,260.2514599793885 706.8120920645827,197.86121607694952 786,199 C 865.1879079354173,200.13878392305048 981.3198213672276,264.8065956715905 1059,268 C 1136.6801786327724,271.1934043284095 1175.9086224665066,212.91240123668842 1233,208 C 1290.0913775334934,203.08759876331158 1365.0456887667467,251.5437993816558 1440,300 C 1440,300 1440,600 1440,600 Z" stroke="none" stroke-width="0" fill="#1c1d1d" class="transition-all duration-300 ease-in-out delay-150 path-0"></path></svg>-->
+		
+		<script type="text/javascript" defer src="scripts/main.js"></script>
+
+	</body>
+
+</html>
